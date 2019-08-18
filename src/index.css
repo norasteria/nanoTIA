@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.multiapp-wrapper .multiapp-dl .app-store-button img,
+.multiapp-wrapper .multiapp-dl .google-store-button img,
+.multiapp-wrapper .multiapp-dl .mobo-store-button {
+  width: 135px;
+}
+
+.multiapp-wrapper .multiapp-description,
+.multiapp-wrapper .multiapp-description__image .multiapp-image {
+  padding: 11px;
+}
+
+.multiapp-wrapper {
+  padding: 0.5em;
+  border: 2px solid #f5f5f5;
+  border-radius: 5px;
+}
+
+.multiapp-wrapper .multiapp-dl {
+  position: relative;
+  margin-top: 1.5em;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.multiapp-wrapper .multiapp-image img {
+  width: 50px;
+  display: inline-block;
+  max-height: 150px;
+  border-radius: 20px;
+}
+
+.multiapp-wrapper .multiapp-description {
+  display: inline-block;
+  border-right: 1px solid #e0e0e0;
+}
+
+.multiapp-wrapper .multiapp-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #333;
+}
+
+.tia-content img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 2px;
+}
+
+.tia-content a {
+  color: #bf0016;
+}
+
+.tia-content a:hover {
+  text-decoration: none;
+  color: #790411;
+}
+
+.tia-content .wp-caption-text {
+  color: #999999;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.tia-content .read-also {
+  width: 40%;
+  margin: 50px auto;
+  float: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  padding: 1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.3rem;
+  box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.03);
+  font-size: 18px;
+}
+
+.tia-content .read-also__image img {
+  display: block;
+  object-fit: cover;
+  min-width: 85px;
+  height: 85px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.tia-content .read-also__copy {
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.tia-content .read-also__text {
+  margin-left: 16px;
+}
+
+.tia-content .read-also__text > p {
+  font-family: "Proxima Nova Regular";
+  margin: 0;
+}
+
+.tia-content .read-also__post-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/ProximaNova-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/ProximaNova-Bold.woff") format("woff");
+}
