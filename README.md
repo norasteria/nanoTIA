@@ -1,8 +1,8 @@
-# NANO TIA WEBSITE
+# INFINITE SCROLL FETCH WEBSIE
 
 ## Technology
 
-- ReactJs
+- ReactJs (`create-react-app`)
 - Redux
 - React Bootstrap
 
